@@ -1,0 +1,5 @@
+activity_?_drawer :
+Layout for the Navigation viewer on the side, with icons and names.
+
+? :
+Layout for the options that can be displayed on the top-right corner.

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.socialcloud.SocialNetwork"
+    tools:showIn="@layout/app_bar_social_network">
+
+    <ImageView
+        android:id="@+id/ProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/NameSurname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@mipmap/ic_launcher" android:contentDescription="@string/Def_icon" />
+
+    <TextView
+        android:id="@+id/NameSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/name_surname"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ProfilePic"
+        android:layout_alignStart="@+id/ProfilePic"
+        android:layout_below="@+id/NameSurname"
+        android:layout_marginTop="23dp"
+        android:text="@string/email_default_com"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/BirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Email"
+        android:layout_alignStart="@+id/Email"
+        android:layout_below="@+id/Email"
+        android:layout_marginTop="30dp"
+        android:text="@string/Default_date"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/BirthDate"
+        android:layout_alignStart="@+id/BirthDate"
+        android:layout_below="@+id/BirthDate"
+        android:layout_marginTop="28dp"
+        android:text="@string/not_specified"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/Email_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Email"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        app:srcCompat="@drawable/ic_email" android:contentDescription="@string/Def_icon" />
+
+    <ImageView
+        android:id="@+id/Date_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/BirthDate"
+        android:layout_alignLeft="@+id/Email_icon"
+        android:layout_alignStart="@+id/Email_icon"
+        app:srcCompat="@drawable/ic_calendar" android:contentDescription="@string/Def_icon" />
+
+    <ImageView
+        android:id="@+id/City_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/City"
+        android:layout_alignLeft="@+id/Date_icon"
+        android:layout_alignStart="@+id/Date_icon"
+        app:srcCompat="@drawable/ic_home" android:contentDescription="@string/Def_icon" />
+
+    <Button
+        android:id="@+id/requestfriendshipbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="@string/send_friend_request"
+        android:visibility="invisible" />
+
+</RelativeLayout>

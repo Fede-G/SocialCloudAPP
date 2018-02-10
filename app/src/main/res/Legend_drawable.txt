@@ -1,0 +1,1 @@
+All files in this directory are icons for the various menus/images in the project.

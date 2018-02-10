@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Social Cloud</string>
+
+    <!-- Strings related to login -->
+    <string name="or_textview">or</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_signin">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_signin_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to register -->
+    <string name="title_activity_register">Register</string>
+    <string name="reg_name">Name</string>
+    <string name="reg_surname">Surname</string>
+    <string name="reg_city">City (optional)</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_passwordre">Repeat Password</string>
+    <string name="reg_date">Date (gg-mm-yy)</string>
+    <string name="action_register_short">Register</string>
+    <string name="b_photo">Take Photo</string>
+    <string name="b_gallery">Pick from Gallery</string>
+    <string name="title_activity_social_network">SocialNetwork</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_passphrase">Insert Passphrase</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_pp">Your Passphrase Here</string>
+    <string name="action_senddata">Register</string>
+    <string name="prompt_pp_re">Confirm Passphrase</string>
+    <string name="pp_description">The Passphrase is a password used for encrypting all your data and is a lot more important than the password itself, that lets you log in into your account. With the passphrase you can upload photo. It needs to be longer and harder to find.</string>
+    <string name="DefaultEmail">default@default.com</string>
+    <string name="DefaultName">Default Name</string>
+    <string name="Profile_Image">Placeholder Image</string>
+    <string name="placeholder_password">Password</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_quit">Quit</string>
+    <string name="title_activity_photo_gallery">PhotoGallery</string>
+    <string name="title_activity_upload_photo">UploadPhoto</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="UploadPhoto">Upload Photo</string>
+    <string name="PhotoGallery">Photo Gallery</string>
+    <string name="Search">Search Friend</string>
+    <string name="Quit">Quit</string>
+    <string name="register">Register</string>
+    <string name="photoselector_button_text">Select a photo</string>
+    <string name="send_image">Send Image</string>
+    <string name="photoselector">PhotoSelector</string>
+    <string name="not_specified">Not Specified</string>
+    <string name="Default_date">00/00/0000</string>
+    <string name="name_surname">Name Surname</string>
+    <string name="email_default_com">email@default.com</string>
+    <string name="todo">TODO</string>
+    <string name="Def_icon">icon</string>
+    <string name="goodbye">Goodbye!</string>
+    <string name="name_or_surname">Name or Surname</string>
+    <string name="name_rowhead">Name</string>
+    <string name="surname_rowhead">Surname</string>
+    <string name="city_rowhead">City</string>
+    <string name="search_button_txt">Search</string>
+    <string name="pick_a_photo">Pick a photo</string>
+    <string name="access_rule">Access Rule</string>
+    <string name="something">#something</string>
+    <string name="_1">1</string>
+    <string name="rule_txt">1: Friends, 2:Friends of friends, ..., 7: max</string>
+    <string name="meta_tag">Meta Tag</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="image_preview">preview</string>
+    <string name="name_tag">Meta Tag List</string>
+    <string name="Image_preview">TODO</string>
+    <string name="send_friend_request">Send friend request</string>
+    <string name="title_activity_friendship">Friendship</string>
+    <string name="Friendship">Friend Requests</string>
+    <string name="empty_rowhead" />
+    <string name="image_name">Image Name</string>
+    <string name="imagename">Imagename</string>
+    <string name="insert_passphrase">Insert Passphrase</string>
+    <string name="passphrase">Passphrase:</string>
+    <string name="utilsnotright">Something is wrong with the data! No numbers on name or city!</string>
+    <string name="Preview">Preview of image</string>
+    <string name="tap_the_id_number_to_go_to_the_profile_on_the_searched_user">Tap the ID number to go to the profile on the searched user</string>
+</resources>

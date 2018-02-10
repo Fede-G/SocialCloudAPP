@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.socialcloud.UploadPhoto"
+    tools:showIn="@layout/app_bar_upload_photo">
+
+    <ImageView
+        android:id="@+id/preview_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/image_preview"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:scaleType="centerInside"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/ic_menu_upload_photo" />
+
+    <Button
+        android:id="@+id/gotopicker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview_upload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/pick_a_photo" />
+
+    <EditText
+        android:id="@+id/metatag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/static_txt_metatag"
+        android:layout_toLeftOf="@+id/static_txt_accessrule"
+        android:layout_toStartOf="@+id/static_txt_accessrule"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/something"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/static_txt_metatag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gotopicker_button"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/preview_upload"
+        android:layout_toStartOf="@+id/preview_upload"
+        android:text="@string/meta_tag" />
+
+    <TextView
+        android:id="@+id/static_txt_accessrule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/metatag"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/access_rule" />
+
+    <TextView
+        android:id="@+id/descr_accessrule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/static_txt_accessrule"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rule_txt" />
+
+    <EditText
+        android:id="@+id/access_rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/descr_accessrule"
+        android:ems="10"
+        android:hint="@string/_1"
+        android:inputType="number"
+        android:text="@string/_1"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/upload_photo_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passphrase_pass"
+        android:text="@string/upload_photo" />
+
+    <TextView
+        android:id="@+id/ImageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/metatag"
+        android:layout_toEndOf="@+id/preview_upload"
+        android:layout_toRightOf="@+id/preview_upload"
+        android:text="@string/image_name" />
+
+    <EditText
+        android:id="@+id/image_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/static_txt_accessrule"
+        android:layout_toEndOf="@+id/static_txt_accessrule"
+        android:layout_toRightOf="@+id/static_txt_accessrule"
+        android:ems="10"
+        android:hint="@string/imagename"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Passphrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/access_rule"
+        android:layout_centerHorizontal="true"
+        android:text="@string/insert_passphrase" />
+
+    <EditText
+        android:id="@+id/passphrase_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Passphrase"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+</RelativeLayout>

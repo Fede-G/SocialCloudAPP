@@ -1,0 +1,11 @@
+activity_? :
+Layout that represents the whole activity, from the bars to the content and even the navigation and menus.
+
+app_bar_? :
+Layout that represents the application top bar and his content layout, for each option in the navigation drawer.
+
+content_? :
+Layout that represent the content in the middle, for each option in the navigation drawer.
+
+nav_header_? :
+Layout of the navigation header at the side for the navigation menu, common to all navigation drawer activities.

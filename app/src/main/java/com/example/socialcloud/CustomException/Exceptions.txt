@@ -1,0 +1,1 @@
+TODO: Add more exceptions, this must be done server-side by returning an error code and a message to the client: right now the exception is not handled in the right way even for JS (display only the raw Java error in the chat)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.socialcloud.Quit"
+    tools:showIn="@layout/app_bar_quit">
+
+    <TextView
+        android:id="@+id/textViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:gravity="center"
+        android:text="@string/goodbye"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+</RelativeLayout>
